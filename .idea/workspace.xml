@@ -10,31 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5fed662-c99a-47de-8ff3-8fb890a37419" name="Changes" comment="JSF">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/commons/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/commons/ControllerInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/commons/ModelAndView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/commons/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/controller/CalculatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/model/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/CalculatorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/commons/ViewRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/commons/ViewResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/commons/ViewWithSuffixResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/view/AddValuesView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/view/MenuView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/view/ResultsView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/decorators/SmartCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/decorators/SmartCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/di/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/DieselEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/di/DieselEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/di/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/di/Motor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/PetrolEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/di/PetrolEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/Providers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/di/Providers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/RandomValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/di/RandomValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/TestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/di/TestBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/TestEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/di/TestEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/di/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/events/MessageConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/events/MessageConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/events/MessageProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/events/MessageProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/interceptors/LogExecutionTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/interceptors/LogExecutionTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/interceptors/Stopper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/cdi/interceptors/Stopper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/commons/ControllerInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/commons/ControllerInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/controller/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/calculator/controller/CalculatorController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +35,8 @@
         <option value="Jsp File" />
         <option value="jsf" />
         <option value="facelets" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -97,6 +82,7 @@
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.training.jsf.calculator.view" />
       <recent name="pl.training.jsf.calculator" />
       <recent name="pl.training.jsf.di" />
     </key>
@@ -239,7 +225,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659511869198</updated>
       <workItem from="1659511870609" duration="7290000" />
-      <workItem from="1659523589399" duration="7074000" />
+      <workItem from="1659523589399" duration="9057000" />
     </task>
     <task id="LOCAL-00001" summary="Servlets API">
       <created>1659514398112</created>
@@ -290,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659531910775</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="JSF">
+      <created>1659533115175</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659533115175</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
