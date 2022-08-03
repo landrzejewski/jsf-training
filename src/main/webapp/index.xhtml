@@ -16,5 +16,9 @@
     </h:form>
     <h1>Greetings</h1>
     <h:outputText id="greeting" value="#{greetings.greeting}" />
+    <h1>Old greetings</h1>
+    <h:dataTable id="oldGreetings" value="#{greetings.oldGreetings}" var="greetingText">
+        <h:column>#{greetingText}</h:column>
+    </h:dataTable>
 </h:body>
 </html>
