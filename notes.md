@@ -1,0 +1,4 @@
+- aplikacja losuje liczbę z przedziału 1-10
+- gracz zgaduje liczbę
+- aplikacja zwraca informacje czy podana liczba jest większa, mniejsza lub równa wylosowanej liczbie
+- gracz ma 3 próby na odgadnięcie wylosowanej liczby
