@@ -10,15 +10,20 @@ import lombok.RequiredArgsConstructor;
 @Controller
 @Interceptor
 @RequiredArgsConstructor(onConstructor_ = @Inject)
-public class ControllerInterceptor {
+public class Dispatcher {
 
-    private final Event<ModelAndView> dispatcher;
+    // private final ViewRenderer viewRenderer;
+
+    private final Event<ModelAndView> publisher;
 
     @AroundInvoke
     public Object dispatch(InvocationContext invocationContext) throws Exception {
-        var modelAndView = (ModelAndView) invocationContext.proceed();
-        dispatcher.fire(modelAndView);
-        return modelAndView;
+        var result = invocationContext.proceed();
+        if (result instanceof ModelAndView modelAndView) {
+            // viewRenderer.render(modelAndView);
+            publisher.fire(modelAndView);
+        }
+        return result;
     }
 
 }

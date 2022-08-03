@@ -11,7 +11,7 @@
 
     <interceptors>
         <class>pl.training.jsf.cdi.interceptors.Stopper</class>
-        <class>pl.training.jsf.calculator.commons.ControllerInterceptor</class>
+        <class>pl.training.jsf.calculator.commons.Dispatcher</class>
     </interceptors>
 
     <!--<decorators>

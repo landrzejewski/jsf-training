@@ -3,7 +3,7 @@ package pl.training.jsf.calculator;
 import org.jboss.weld.environment.se.Weld;
 import pl.training.jsf.calculator.controller.CalculatorController;
 
-public class Application {
+public class CalculatorApplication {
 
     public static void main(String[] args) {
         var weld = new Weld();

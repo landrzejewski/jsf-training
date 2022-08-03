@@ -21,23 +21,23 @@ public class CalculatorController {
         return new ModelAndView("Menu");
     }
 
-    public ModelAndView select(String option) {
+    public ModelAndView selectOption(int option) {
         return switch (option) {
-            case "1" -> new ModelAndView("AddValues");
-            case "2" -> new ModelAndView("SubtractValues");
-            case "3" -> new ModelAndView("Exit");
+            case 1 -> new ModelAndView("AddValues");
+            case 2 -> new ModelAndView("SubtractValues");
+            case 3 -> new ModelAndView("Exit");
             default -> throw new IllegalArgumentException();
         };
     }
 
-    public ModelAndView addValues(BigDecimal firstValue, BigDecimal secondValue) {
-        var result = calculator.add(firstValue, secondValue).toString();
-        return new ModelAndView("Results", Map.of("result", result));
+    public ModelAndView addValues(BigDecimal firstNumber, BigDecimal secondNumber) {
+        var result = calculator.add(firstNumber, secondNumber);
+        return new ModelAndView("Results", Map.of("result", result.toString()));
     }
 
-    public ModelAndView subtractValues(BigDecimal firstValue, BigDecimal secondValue) {
-        var result = calculator.subtract(firstValue, secondValue).toString();
-        return new ModelAndView("Results", Map.of("result", result));
+    public ModelAndView subtractValues(BigDecimal firstNumber, BigDecimal secondNumber) {
+        var result = calculator.subtract(firstNumber, secondNumber);
+        return new ModelAndView("Results", Map.of("result", result.toString()));
     }
 
 }

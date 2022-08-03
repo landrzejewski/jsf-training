@@ -22,8 +22,7 @@ public class MenuView implements View {
         System.out.println("1 - Dodaj");
         System.out.println("2 - Odejmij");
         System.out.println("3 - Wyjdź");
-        var option = scanner.next();
-        controller.select(option);
+        controller.selectOption(scanner.nextInt());
     }
 
 }

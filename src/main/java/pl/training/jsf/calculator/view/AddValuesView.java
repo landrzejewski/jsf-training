@@ -18,10 +18,10 @@ public class AddValuesView implements View {
 
     @Override
     public void render(Map<String, String> data) {
-        System.out.println("Dodaj liczby");
-        System.out.println("Podaj pierwszą liczbę");
+        System.out.println("Dodawanie:");
+        System.out.println("Podaj pierwszą liczbę: ");
         var firstValue = scanner.nextBigDecimal();
-        System.out.println("Podaj drugą liczbę");
+        System.out.println("Podaj drugą liczbę: ");
         var secondValue = scanner.nextBigDecimal();
         controller.addValues(firstValue, secondValue);
     }

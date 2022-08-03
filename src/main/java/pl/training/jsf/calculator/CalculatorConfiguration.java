@@ -7,7 +7,7 @@ import jakarta.inject.Singleton;
 import java.util.Scanner;
 
 @ApplicationScoped
-public class CalculatorConfig {
+public class CalculatorConfiguration {
 
     @Singleton
     @Produces

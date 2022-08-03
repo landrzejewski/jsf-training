@@ -12,9 +12,9 @@ public class ViewRenderer {
     private final ViewResolver viewResolver;
 
     public void render(@Observes ModelAndView modelAndView) {
-        var viewName = modelAndView.getViewName();
-        var data = modelAndView.getData();
-        viewResolver.getView(viewName).render(data);
+        var viewName = modelAndView.viewName();
+        var data = modelAndView.data();
+        viewResolver.resolve(viewName).render(data);
     }
 
 }

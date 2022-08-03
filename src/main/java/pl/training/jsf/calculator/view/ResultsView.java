@@ -16,7 +16,7 @@ public class ResultsView implements View {
 
     @Override
     public void render(Map<String, String> data) {
-        System.out.println("Wynik to: " + data.get("result") + "\n");
+        System.out.println("Result: %s".formatted(data.get("result")));
         controller.showMenu();
     }
 

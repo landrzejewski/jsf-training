@@ -18,10 +18,10 @@ public class SubtractValuesView implements View {
 
     @Override
     public void render(Map<String, String> data) {
-        System.out.println("Odejmij liczby");
-        System.out.println("Podaj pierwszą liczbę");
+        System.out.println("Odejmowanie:");
+        System.out.println("Podaj pierwszą liczbę: ");
         var firstValue = scanner.nextBigDecimal();
-        System.out.println("Podaj drugą liczbę");
+        System.out.println("Podaj drugą liczbę: ");
         var secondValue = scanner.nextBigDecimal();
         controller.subtractValues(firstValue, secondValue);
     }
