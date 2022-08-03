@@ -3,6 +3,7 @@ package pl.training.jsf.di;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import lombok.extern.java.Log;
+import pl.training.jsf.events.MessageProducer;
 
 import java.util.logging.Logger;
 
@@ -18,11 +19,14 @@ public class TestBean {
     private int otherRandomInt;
     @Inject
     private Logger logger;
+    @Inject
+    private MessageProducer messageProducer;
 
     public void test() {
         log.info("### Random value: " + randomInt);
         log.info("### Other random value: " + otherRandomInt);
         logger.info("### Logger name: " + logger.getName());
+        messageProducer.send("Hello!!");
     }
 
 }

@@ -5,18 +5,21 @@ import jakarta.annotation.PreDestroy;
 import jakarta.enterprise.context.Dependent;
 import jakarta.inject.Inject;
 import lombok.extern.java.Log;
+import pl.training.jsf.interceptors.LogExecutionTime;
 
 @Log
 @Dependent
-public class Car {
+public class Car implements Vehicle {
 
-    private Engine engine;
+    private final Engine engine;
 
     @Inject
     public Car(@Motor("petrol") Engine engine) {
         this.engine = engine;
     }
 
+    @LogExecutionTime
+    @Override
     public void go() {
         engine.start();
         log.info("### Driving...");

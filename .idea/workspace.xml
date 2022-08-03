@@ -10,17 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5fed662-c99a-47de-8ff3-8fb890a37419" name="Changes" comment="JSF">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/DieselEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/Motor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/PetrolEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/Providers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/RandomValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/TestEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/decorators/SmartCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/events/MessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/events/MessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/interceptors/LogExecutionTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/interceptors/Stopper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/TestBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/di/TestBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +35,7 @@
         <option value="Jsp File" />
         <option value="jsf" />
         <option value="facelets" />
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -210,7 +209,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659511869198</updated>
       <workItem from="1659511870609" duration="7290000" />
-      <workItem from="1659523589399" duration="3820000" />
+      <workItem from="1659523589399" duration="5756000" />
     </task>
     <task id="LOCAL-00001" summary="Servlets API">
       <created>1659514398112</created>
@@ -247,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659523611185</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="JSF">
+      <created>1659529673275</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659529673275</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
