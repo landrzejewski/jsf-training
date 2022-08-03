@@ -6,15 +6,16 @@
        version="2.0">
 
     <!--<alternatives>
-        <class>pl.training.jsf.di.TestEngine</class>
+        <class>pl.training.jsf.cdi.di.TestEngine</class>
     </alternatives>-->
 
     <interceptors>
-        <class>pl.training.jsf.interceptors.Stopper</class>
+        <class>pl.training.jsf.cdi.interceptors.Stopper</class>
+        <class>pl.training.jsf.calculator.commons.ControllerInterceptor</class>
     </interceptors>
 
     <!--<decorators>
-        <class>pl.training.jsf.decorators.SmartCar</class>
+        <class>pl.training.jsf.cdi.decorators.SmartCar</class>
     </decorators>-->
 
 </beans>

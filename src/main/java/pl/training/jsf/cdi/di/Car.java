@@ -1,11 +1,11 @@
-package pl.training.jsf.di;
+package pl.training.jsf.cdi.di;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
 import jakarta.enterprise.context.Dependent;
 import jakarta.inject.Inject;
 import lombok.extern.java.Log;
-import pl.training.jsf.interceptors.LogExecutionTime;
+import pl.training.jsf.cdi.interceptors.LogExecutionTime;
 
 @Log
 @Dependent

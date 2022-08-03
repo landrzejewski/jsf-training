@@ -1,4 +1,4 @@
-package pl.training.jsf.interceptors;
+package pl.training.jsf.cdi.interceptors;
 
 import jakarta.interceptor.InterceptorBinding;
 

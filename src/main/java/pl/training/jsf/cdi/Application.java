@@ -1,8 +1,8 @@
-package pl.training.jsf;
+package pl.training.jsf.cdi;
 
 import org.jboss.weld.environment.se.Weld;
-import pl.training.jsf.di.Car;
-import pl.training.jsf.di.TestBean;
+import pl.training.jsf.cdi.di.Car;
+import pl.training.jsf.cdi.di.TestBean;
 
 public class Application {
 

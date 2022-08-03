@@ -1,4 +1,4 @@
-package pl.training.jsf.di;
+package pl.training.jsf.cdi.di;
 
 public interface Vehicle {
 

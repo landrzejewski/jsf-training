@@ -1,4 +1,4 @@
-package pl.training.jsf.events;
+package pl.training.jsf.cdi.events;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.event.Event;

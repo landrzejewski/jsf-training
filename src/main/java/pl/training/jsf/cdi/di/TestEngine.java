@@ -1,4 +1,4 @@
-package pl.training.jsf.di;
+package pl.training.jsf.cdi.di;
 
 import jakarta.enterprise.context.Dependent;
 import jakarta.enterprise.inject.Alternative;

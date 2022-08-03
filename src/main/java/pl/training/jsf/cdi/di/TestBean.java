@@ -1,9 +1,9 @@
-package pl.training.jsf.di;
+package pl.training.jsf.cdi.di;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import lombok.extern.java.Log;
-import pl.training.jsf.events.MessageProducer;
+import pl.training.jsf.cdi.events.MessageProducer;
 
 import java.util.logging.Logger;
 

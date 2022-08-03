@@ -1,11 +1,11 @@
-package pl.training.jsf.decorators;
+package pl.training.jsf.cdi.decorators;
 
 import jakarta.decorator.Decorator;
 import jakarta.decorator.Delegate;
 import jakarta.inject.Inject;
 import lombok.Setter;
-import pl.training.jsf.di.Car;
-import pl.training.jsf.di.Vehicle;
+import pl.training.jsf.cdi.di.Car;
+import pl.training.jsf.cdi.di.Vehicle;
 
 import java.util.logging.Logger;
 

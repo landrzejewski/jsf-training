@@ -1,10 +1,9 @@
-package pl.training.jsf.di;
+package pl.training.jsf.cdi.di;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.inject.Disposes;
 import jakarta.enterprise.inject.Produces;
 import jakarta.enterprise.inject.spi.InjectionPoint;
-import jakarta.inject.Singleton;
 import lombok.extern.java.Log;
 
 import java.util.Random;
