@@ -10,16 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5fed662-c99a-47de-8ff3-8fb890a37419" name="Changes" comment="Servlets API">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/GreetingEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/GreetingsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/SystemTimeProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/TimeProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/Greetings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/Greetings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +26,6 @@
         <option value="Jsp File" />
         <option value="jsf" />
         <option value="facelets" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="002-Servlets-MVC" />
+        <entry key="$PROJECT_DIR$" value="004-JSF-with-JPA" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +66,6 @@
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\landr\Desktop\jsf-training\src\main\resources\META-INF" />
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\WEB-INF" />
     </key>
   </component>
@@ -162,18 +151,6 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -225,8 +202,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Servlets API" />
-    <MESSAGE value="JSF" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSF" />
+    <option name="LAST_COMMIT_MESSAGE" value="Servlets API" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
