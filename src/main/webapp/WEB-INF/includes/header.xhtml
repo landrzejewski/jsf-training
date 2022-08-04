@@ -5,9 +5,13 @@
                 xmlns:f="http://xmlns.jcp.org/jsf/core">
 
     <nav>
-        <ul>
-            <li>Link</li>
-        </ul>
+        <h:form>
+            <ul>
+                <li><h:link outcome="product" value="Add product" /></li>
+                <!--<li><h:commandLink action="product" value="Add product"/></li>-->
+                <li><h:commandLink action="#{navigationController.showProducts()}" value="Product"/></li>
+            </ul>
+        </h:form>
     </nav>
 
 </ui:composition>

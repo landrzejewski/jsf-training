@@ -3,4 +3,14 @@
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_3.xsd"
               version="2.3">
+
+    <navigation-rule>
+        <from-view-id>*</from-view-id>
+
+        <navigation-case>
+            <from-outcome>product</from-outcome>
+            <to-view-id>product-form.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
 </faces-config>

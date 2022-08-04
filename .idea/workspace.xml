@@ -10,18 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5fed662-c99a-47de-8ff3-8fb890a37419" name="Changes" comment="Servlets API">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/Fake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/footer.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/header.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/layout.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/ProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/NavigationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/ProductForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/product-form.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/products.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/GreetingEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/GreetingsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/SystemTimeProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/TimeProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/Greetings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/header.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/header.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,7 @@
         <option value="Jsp File" />
         <option value="facelets" />
         <option value="jsf" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -65,7 +64,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/landr/Desktop/jsf-training/src/main/webapp/WEB-INF/includes",
+    "last_opened_file_path": "C:/Users/landr/Desktop/jsf-training/src/main/webapp/WEB-INF",
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -74,14 +73,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\WEB-INF\includes" />
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\WEB-INF\includes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp" />
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\resources" />
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\resources" />
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp" />
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\WEB-INF\templates" />
     </key>
   </component>
@@ -218,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659596105922</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Servlets API">
+      <created>1659600158754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659600158754</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
