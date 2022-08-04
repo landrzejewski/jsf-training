@@ -10,19 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5fed662-c99a-47de-8ff3-8fb890a37419" name="Changes" comment="Servlets API">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/extensions/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/extensions/Extended.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/extensions/FastMoneyConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/extensions/FastMoneyValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/extensions/Length.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/extensions/LengthValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/UserContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/extensions/IdProductConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/Fake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/InMemoryProductsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/header.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/header.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/layout.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/layout.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/product-form.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/product-form.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/products.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/products.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +40,8 @@
         <option value="Enum" />
         <option value="HTML File" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -241,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659605671365</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Servlets API">
+      <created>1659610574731</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659610574731</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

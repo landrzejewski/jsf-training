@@ -8,7 +8,11 @@
   <ui:param name="title" value="Shop" />
 
   <ui:define name="content">
-      <p>Main view</p>
+      <p>Main view (#{userContext.username})</p>
+      <h:form>
+          <h:inputText value="#{userContext.username}"/>
+          <h:commandButton action="index" value="Save" />
+      </h:form>
   </ui:define>
 
 </ui:composition>

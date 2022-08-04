@@ -6,7 +6,6 @@
 
     <navigation-rule>
         <from-view-id>*</from-view-id>
-
         <navigation-case>
             <from-outcome>product</from-outcome>
             <to-view-id>product-form.xhtml</to-view-id>

@@ -1,6 +1,8 @@
 package pl.training.jsf.domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.javamoney.moneta.FastMoney;
 import pl.training.jsf.view.extensions.Base;
 import pl.training.jsf.view.extensions.Extended;
@@ -13,6 +15,8 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Product {
 
     private String uuid;

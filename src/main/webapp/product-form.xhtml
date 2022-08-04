@@ -7,8 +7,12 @@
 
   <ui:param name="title" value="Product" />
 
+  <f:metadata>
+      <f:viewParam name="uuid" value="#{productForm.product}" converter="#{idProductConverter}" converterMessage="Invalid product id" required="false"/>
+  </f:metadata>
+
   <ui:define name="content">
-      <h1>Product</h1>
+      <h1>Product (#{userContext.username})</h1>
       <h:form>
           <div>
               <h:outputLabel value="Name:" for="name"/>
