@@ -10,18 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5fed662-c99a-47de-8ff3-8fb890a37419" name="Changes" comment="Servlets API">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/UserContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/extensions/IdProductConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/Fake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/InMemoryProductsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/product-form.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/product-form.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/products.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/products.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659610574731</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Servlets API">
+      <created>1659617391726</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659617391726</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
