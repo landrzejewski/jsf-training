@@ -18,6 +18,7 @@ public class UserContext implements Serializable {
 
     private String username;
     private Locale locale;
+    private boolean isActive;
 
     @PostConstruct
     public void init() {

@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui:composition template="/WEB-INF/templates/layout.xhtml"
-        xmlns="http://www.w3.org/1999/xhtml"
-        xmlns:h="http://xmlns.jcp.org/jsf/html"
-        xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-        xmlns:f="http://xmlns.jcp.org/jsf/core">
+                xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
 
-  <ui:param name="title" value="Shop" />
+    <ui:param name="title" value="Shop"/>
 
-  <ui:define name="content">
-      <p>Main view (#{userContext.username})</p>
-      <h:form>
-          <h:inputText value="#{userContext.username}"/>
-          <h:commandButton action="index" value="Save" />
-      </h:form>
-  </ui:define>
+    <ui:define name="content">
+        <p>Main view (#{userContext.username})</p>
+
+        <h:form>
+
+            <h:selectOneRadio value="#{userContext.active}">
+                <f:selectItem itemValue="true" itemLabel="On"/>
+                <f:selectItem itemValue="false" itemLabel="Off"/>
+                <f:ajax event="change" render="test"/>
+            </h:selectOneRadio>
+
+            <h:inputText id="test" value="#{userContext.active}"
+                         disabled="#{userContext.active}"
+                         styleClass="#{userContext.active ? '' : 'invisible'}"/>
+        </h:form>
+
+        <h:form>
+            <h:inputText value="#{userContext.username}"/>
+            <h:commandButton action="index" value="Save"/>
+        </h:form>
+    </ui:define>
 
 </ui:composition>
