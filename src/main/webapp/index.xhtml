@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html
-        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:f="http://xmlns.jcp.org/jsf/core">
-<h:head>
-    <title>Title</title>
-</h:head>
-<h:body>
-    <h:form>
-        <h:outputLabel for="name" value="Enter name:" />
-        <h:inputText id="name" value="#{greetings.name}" />
-        <h:commandButton value="Send" action="#{greetings.submit()}" />
-    </h:form>
-    <h1>Greetings</h1>
-    <h:outputText id="greeting" value="#{greetings.greeting}" />
-    <h1>Old greetings</h1>
-    <h:dataTable id="oldGreetings" value="#{greetings.oldGreetings}" var="greetingText">
-        <h:column>#{greetingText}</h:column>
-    </h:dataTable>
-</h:body>
-</html>
+<ui:composition template="/WEB-INF/templates/layout.xhtml"
+        xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:h="http://xmlns.jcp.org/jsf/html"
+        xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+        xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+  <ui:param name="title" value="Shop" />
+
+  <ui:define name="content">
+      <p>Main view</p>
+  </ui:define>
+
+</ui:composition>
