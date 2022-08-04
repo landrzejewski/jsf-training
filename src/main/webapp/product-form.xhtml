@@ -12,7 +12,12 @@
       <h:form>
           <div>
               <h:outputLabel value="Name:" for="name"/>
-              <h:inputText id="name" value="#{productForm.product.name}" />
+              <h:inputText id="name" value="#{productForm.product.name}" > <!--required="true">-->
+                  <!--<f:validateLength minimum="3" maximum="10"/>
+                  <f:validateRegex pattern="[a-z]+"/>-->
+                  <f:validateBean validationGroups="pl.training.jsf.view.extensions.Base"/>
+              </h:inputText>
+              <h:messages for="name" />
           </div>
           <div>
               <h:outputLabel value="Description:" for="description"/>
@@ -32,11 +37,20 @@
           </div>
           <div>
               <h:outputLabel value="Quantity:" for="quantity"/>
-              <h:inputText id="quantity" value="#{productForm.product.quantity}" />
+              <h:inputText id="quantity" value="#{productForm.product.quantity}">
+                  <f:validateRequired/>
+                  <f:validateLongRange minimum="1"/>
+              </h:inputText>
+              <h:messages for="quantity" />
           </div>
           <div>
               <h:outputLabel value="Price:" for="price"/>
-              <h:inputText id="price" value="#{productForm.product.price}" />
+              <h:inputText id="price" value="#{productForm.product.price}">
+                  <!--<f:convertNumber type="currency" locale="pl_PL" />-->
+                  <f:converter converterId="pl.training.jsf.view.extensions.FastMoneyConverteras" />
+                  <f:validator validatorId="pl.training.jsf.view.extensions.FastMoneyValidator" />
+              </h:inputText>
+              <h:messages for="price" />
           </div>
           <div>
               <h:outputLabel value="Created:" for="created"/>
@@ -45,6 +59,7 @@
               </h:inputText>
           </div>
           <h:commandButton value="Submit" action="#{productForm.save()}" />
+          <h:messages />
       </h:form>
   </ui:define>
 
