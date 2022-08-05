@@ -11,8 +11,6 @@ i
 9src/main/java/pl/training/jsf/view/extensions/Length.java,8\e\8e9a98440a48f3b5f47821e9c7ae7246905364e5
 r
 Bsrc/main/java/pl/training/jsf/view/extensions/LengthValidator.java,e\b\eb2696130a53c3e25722b7cd0acf2fba84d81219
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 u
 Esrc/main/java/pl/training/jsf/view/extensions/IdProductConverter.java,d\5\d548858180d3f1ec53486060939e1fc61d96b06a
 q

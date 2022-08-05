@@ -5,7 +5,8 @@
                 xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
                 xmlns:f="http://xmlns.jcp.org/jsf/core"
                 xmlns:c="http://training.pl/components"
-                xmlns:t="http://xmlns.jcp.org/jsf/composite/components">
+                xmlns:t="http://xmlns.jcp.org/jsf/composite/components"
+                xmlns:p="http://primefaces.org/ui">
 
     <ui:param name="title" value="Shop"/>
 
@@ -45,6 +46,13 @@
             <h:commandButton value="Submit" action="#{userContext.updateTime}">
                 <f:ajax execute="@form" />
             </h:commandButton>
+        </h:form>
+
+        <h:form>
+            <h5 class="mt-0">Inline</h5>
+            <p:colorPicker value="#{userContext.colorInline}" mode="inline" />
+            <h5>Popup</h5>
+            <p:colorPicker value="#{userContext.colorPopup}" />
         </h:form>
 
     </ui:define>

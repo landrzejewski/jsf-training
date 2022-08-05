@@ -9,3 +9,8 @@ https://download.oracle.com/otn-pub/jcp/jsf-2_3-final-eval-spec/JSF_2.3.pdf?Auth
 
 Dynamic components
 https://itecnote.com/tecnote/r-how-to-create-dynamic-jsf-form-fields/
+
+
+Components
+https://www.primefaces.org/showcase
+http://icefaces-showcase.icesoft.org/showcase.js
