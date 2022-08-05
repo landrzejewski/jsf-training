@@ -13,12 +13,12 @@
     <h1>Login form</h1>
     <h:form>
         <h:outputLabel for="username" value="Username" />
-        <h:inputText id="username" value="#{login.username}" />
+        <h:inputText id="username" value="#{security.username}" />
         <br/>
         <h:outputLabel for="password" value="Password" />
-        <h:inputSecret id="password" value="#{login.password}" />
+        <h:inputSecret id="password" value="#{security.password}" />
         <br/>
-        <h:commandButton value="Send" action="#{login.submit}" />
+        <h:commandButton value="Send" action="#{security.login}" />
         <h:messages/>
     </h:form>
 </h:body>

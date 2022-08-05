@@ -10,6 +10,7 @@
                 <li><h:link outcome="product" value="#{text['addProductLink']}" /></li>
                 <!--<li><h:commandLink action="product" value="Add product"/></li>-->
                 <li><h:commandLink action="#{navigationController.showProducts()}" value="#{text.productsLink}"/></li>
+                <li><h:commandLink action="#{security.logout()}" value="Logout"/></li>
             </ul>
             <h:selectOneMenu value="#{userContext.languageTag}">
                 <f:selectItems value="#{userContext.supportedLocales}" var="locale"

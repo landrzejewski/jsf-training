@@ -14,7 +14,11 @@ import javax.security.enterprise.authentication.mechanism.http.LoginToContinue;
     groups = "USER"
 ))
 @CustomFormAuthenticationMechanismDefinition(
-        loginToContinue = @LoginToContinue(loginPage = "/login.xhtml", errorPage = ""))
+    loginToContinue = @LoginToContinue(
+            loginPage = "/login.xhtml",
+            errorPage = ""
+    )
+)
 @FacesConfig
 @ApplicationScoped
 public class ApplicationConfig {

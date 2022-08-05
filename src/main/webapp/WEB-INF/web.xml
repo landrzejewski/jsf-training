@@ -50,7 +50,7 @@
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>User pages</web-resource-name>
-            <url-pattern>/*</url-pattern>
+            <url-pattern>/product-form.xhtml</url-pattern>
             <!--<http-method>POST</http-method>-->
         </web-resource-collection>
         <auth-constraint>

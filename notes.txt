@@ -14,3 +14,16 @@ https://itecnote.com/tecnote/r-how-to-create-dynamic-jsf-form-fields/
 Components
 https://www.primefaces.org/showcase
 http://icefaces-showcase.icesoft.org/showcase.js
+
+Security exception
+https://stackoverflow.com/questions/70225352/why-does-this-simple-jakarta-security-example-from-soteria-work-on-payara-but-no
+
+jboss-cli.bat
+connect
+# Enable a default JACC policy with WildFly Elytron
+/subsystem=elytron/policy=jacc:add(jacc-policy={})
+
+# Disable 'integrated-jaspi' as the quickstart will be managing it's own identities
+/subsystem=undertow/application-security-domain=other:write-attribute(name=integrated-jaspi, value=false)
+
+reload

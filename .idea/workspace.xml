@@ -10,14 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5fed662-c99a-47de-8ff3-8fb890a37419" name="Changes" comment="Servlets API">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/errorpages/500.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/Security.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/extensions/UserServiceIdentityStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wildfly-administracja-i-konfiguracja.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/Login.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/UserContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/UserContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/header.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/header.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/landr/Desktop/jsf-training/src/main/webapp",
+    "last_opened_file_path": "C:/Users/landr/Desktop/jsf-training",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -79,8 +84,8 @@
       <recent name="pl.training.jsf.view.extensions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp" />
       <recent name="C:\Users\landr\Desktop\jsf-training" />
+      <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp" />
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\resources" />
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\resources\components" />
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\resources\i18n" />
@@ -93,8 +98,8 @@
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\WEB-INF\templates" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="JBoss/WildFly 26.1.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 26.1.1.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+  <component name="RunManager" selected="JBoss/WildFly Server.JBoss/WildFly 26.1.1.Final">
+    <configuration name="GlassFish 5.0.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="jsf-training:war">
@@ -102,14 +107,14 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="SERVER" />
-        <option name="BINDING_SET_NAME" value="" />
-        <option name="DOMAIN" value="false" />
-        <option name="SERVER_GROUP" value="main-server-group" />
-        <option name="USERNAME" value="" />
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
         <option name="CREDENTIAL_ALIAS" />
       </server-settings>
-      <predefined_log_file enabled="true" id="JBoss" />
+      <predefined_log_file enabled="true" id="GlassFish" />
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
         <option name="IS_SUBST" value="false" />
@@ -121,7 +126,7 @@
         </ENTRIES>
       </extension>
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="64288" />
+        <option name="DEBUG_PORT" value="9009" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -175,20 +180,117 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="JBossConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration default="true" type="GlassfishConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings>
-        <option name="SERVER" value="" />
-        <option name="BINDING_SET_NAME" value="" />
-        <option name="DOMAIN" value="false" />
-        <option name="SERVER_GROUP" value="" />
-        <option name="USERNAME" value="" />
+        <option name="DOMAIN" value="" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
       </server-settings>
-      <predefined_log_file enabled="true" id="JBoss" />
+      <predefined_log_file enabled="true" id="GlassFish" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JBoss/WildFly 26.1.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 26.1.1.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="jsf-training:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64288" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="false" />
+          <option name="SCRIPT" value="$PROJECT_DIR$/../wildfly-26.1.1.Final/bin/standalone.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value=" -c standalone-full.xml" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="false" />
+          <option name="SCRIPT" value="$PROJECT_DIR$/../wildfly-26.1.1.Final/bin/standalone.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="-c standalone-full.xml" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="jsf-training:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="GlassFish Server.GlassFish 5.0.0" />
+      <item itemvalue="JBoss/WildFly Server.JBoss/WildFly 26.1.1.Final" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -199,7 +301,8 @@
       <option name="presentableId" value="Default" />
       <updated>1659511869198</updated>
       <workItem from="1659511870609" duration="7290000" />
-      <workItem from="1659681278740" duration="14078000" />
+      <workItem from="1659681278740" duration="14982000" />
+      <workItem from="1659699591075" duration="6411000" />
     </task>
     <task id="LOCAL-00001" summary="Servlets API">
       <created>1659514398112</created>
@@ -299,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659694845327</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Servlets API">
+      <created>1659696809268</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659696809268</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
