@@ -7,10 +7,15 @@
     <nav>
         <h:form>
             <ul>
-                <li><h:link outcome="product" value="Add product" /></li>
+                <li><h:link outcome="product" value="#{text['addProductLink']}" /></li>
                 <!--<li><h:commandLink action="product" value="Add product"/></li>-->
-                <li><h:commandLink action="#{navigationController.showProducts()}" value="Products"/></li>
+                <li><h:commandLink action="#{navigationController.showProducts()}" value="#{text.productsLink}"/></li>
             </ul>
+            <h:selectOneMenu value="#{userContext.languageTag}">
+                <f:selectItems value="#{userContext.supportedLocales}" var="locale"
+                               itemValue="#{locale.toLanguageTag()}" itemLabel="#{locale.displayLanguage}" />
+                <f:ajax listener="#{userContext.reload()}" />
+            </h:selectOneMenu>
         </h:form>
     </nav>
 

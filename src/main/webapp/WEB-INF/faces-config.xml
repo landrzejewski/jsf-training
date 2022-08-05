@@ -12,4 +12,16 @@
         </navigation-case>
     </navigation-rule>
 
+    <application>
+        <message-bundle>i18n.messages</message-bundle>
+        <locale-config>
+            <default-locale>pl_PL</default-locale>
+            <supported-locale>en_GB</supported-locale>
+        </locale-config>
+        <resource-bundle>
+            <base-name>i18n.text</base-name>
+            <var>text</var>
+        </resource-bundle>
+    </application>
+
 </faces-config>

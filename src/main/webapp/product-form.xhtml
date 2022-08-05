@@ -9,6 +9,7 @@
 
   <f:metadata>
       <f:viewParam name="uuid" value="#{productForm.product}" converter="#{idProductConverter}" converterMessage="Invalid product id" required="false"/>
+      <f:importConstants type="pl.training.jsf.domain.ProductCategory"/>
   </f:metadata>
 
   <ui:define name="content">
@@ -16,10 +17,10 @@
       <h:form>
           <div>
               <h:outputLabel value="Name:" for="name"/>
-              <h:inputText id="name" value="#{productForm.product.name}" > <!--required="true">-->
+              <h:inputText id="name" value="#{productForm.product.name}" required="true"> <!--required="true">-->
                   <!--<f:validateLength minimum="3" maximum="10"/>
                   <f:validateRegex pattern="[a-z]+"/>-->
-                  <f:validateBean validationGroups="pl.training.jsf.view.extensions.Base"/>
+                 <!-- <f:validateBean validationGroups="pl.training.jsf.view.extensions.Base"/>-->
               </h:inputText>
               <h:messages for="name" />
           </div>
@@ -32,11 +33,14 @@
           </div>
           <div>
               <h:outputLabel value="Category:" for="category"/>
-              <h:selectOneMenu id="category" value="${productForm.product.category}">
-                  <!--<f:selectItem itemLabel="Audio" itemValue="AUDIO"/>
+              <!--<h:selectOneMenu id="category" value="${productForm.product.category}">
+                  <f:selectItem itemLabel="Audio" itemValue="AUDIO"/>
                   <f:selectItem itemLabel="Video" itemValue="VIDEO"/>
-                  <f:selectItem itemLabel="Podcast" itemValue="PODCAST"/>-->
+                  <f:selectItem itemLabel="Podcast" itemValue="PODCAST"/>&ndash;&gt;
                   <f:selectItems itemLabel="#{entry.key}" itemValue="${entry.value}" value="#{productForm.categories()}" var="entry" />
+              </h:selectOneMenu>-->
+              <h:selectOneMenu id="category" value="${productForm.product.category}">
+                <f:selectItems value="#{ProductCategory.values()}" var="category" itemLabel="#{text['ProductCategory.' += category ]}" />
               </h:selectOneMenu>
           </div>
           <div>

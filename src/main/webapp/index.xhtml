@@ -15,7 +15,11 @@
             <h:selectOneRadio value="#{userContext.active}">
                 <f:selectItem itemValue="true" itemLabel="On"/>
                 <f:selectItem itemValue="false" itemLabel="Off"/>
-                <f:ajax event="change" render="test"/>
+                <f:ajax event="change" render="test" execute="@this"/>
+                <!--
+                    execute - points elements to process (apply request values, process validations, update model, invoke events)
+                    render - points elements to render
+                -->
             </h:selectOneRadio>
 
             <h:inputText id="test" value="#{userContext.active}"
