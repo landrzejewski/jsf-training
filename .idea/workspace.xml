@@ -10,18 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5fed662-c99a-47de-8ff3-8fb890a37419" name="Changes" comment="Servlets API">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/Security.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/extensions/UserServiceIdentityStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wildfly-administracja-i-konfiguracja.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/ApplicationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/UserContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/UserContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/header.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/header.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +292,7 @@
       <updated>1659511869198</updated>
       <workItem from="1659511870609" duration="7290000" />
       <workItem from="1659681278740" duration="14982000" />
-      <workItem from="1659699591075" duration="6411000" />
+      <workItem from="1659699591075" duration="6896000" />
     </task>
     <task id="LOCAL-00001" summary="Servlets API">
       <created>1659514398112</created>
@@ -409,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659696809268</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Servlets API">
+      <created>1659706179218</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659706179218</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

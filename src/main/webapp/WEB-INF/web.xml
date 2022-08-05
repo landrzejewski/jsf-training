@@ -36,11 +36,11 @@
         <welcome-file>index.xhtml</welcome-file>
     </welcome-file-list>
 
-    <data-source>
+    <!--<data-source>
         <name>java:global/Training</name>
         <class-name>org.h2.jdbcx.JdbcDataSource</class-name>
         <url>jdbc:h2:mem:test;DB_CLOSE_DELAY=1</url>
-    </data-source>
+    </data-source>-->
 
     <error-page>
         <error-code>500</error-code>
