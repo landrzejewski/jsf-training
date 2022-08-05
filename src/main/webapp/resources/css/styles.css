@@ -10,3 +10,8 @@ a {
 .invisible {
     display: none;
 }
+
+.inputLocalTime {
+    font-weight: bold;
+    color: #7777b2;
+}

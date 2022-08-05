@@ -1,8 +1,6 @@
 
 Q
 !src/main/webapp/WEB-INF/beans.xml,8\3\83008b1a88ba03a2548bb5b9ad0768c6c307d36c
-]
--src/main/webapp/WEB-INF/includes/footer.xhtml,4\2\42742ef5092bf31e1d4567078ba821950ae2edb4
 l
 <src/main/java/pl/training/jsf/view/NavigationController.java,d\4\d4765f1aed7461961c3b6706b85a4c793126684d
 g

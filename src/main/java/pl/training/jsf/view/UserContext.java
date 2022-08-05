@@ -6,8 +6,10 @@ import lombok.Setter;
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.SessionScoped;
 import javax.faces.context.FacesContext;
+import javax.faces.event.ValueChangeEvent;
 import javax.inject.Named;
 import java.io.Serializable;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -22,6 +24,7 @@ public class UserContext implements Serializable {
     private Locale currentLocale;
     private List<Locale> supportedLocales = new ArrayList<>();
     private boolean isActive;
+    private LocalTime time;
 
     @PostConstruct
     public void init() {
@@ -47,6 +50,14 @@ public class UserContext implements Serializable {
                 .getPartialViewContext()
                 .getEvalScripts()
                 .add("location.replace(location)");
+    }
+
+    public void userChanged(ValueChangeEvent event) {
+        System.out.println(event.getNewValue());
+    }
+
+    public void updateTime() {
+        System.out.println(time);
     }
 
 }
