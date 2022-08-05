@@ -38,6 +38,7 @@ public class UserContext implements Serializable {
         supportedLocales.add(application.getDefaultLocale());
         application.getSupportedLocales()
                 .forEachRemaining(supportedLocales::add);
+        throw new IllegalStateException();
     }
 
     public String getLanguageTag() {

@@ -10,7 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5fed662-c99a-47de-8ff3-8fb890a37419" name="Changes" comment="Servlets API">
-      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/errorpages/500.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/UserContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/UserContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +31,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="facelets" />
         <option value="jsf" />
         <option value="Enum" />
         <option value="HTML File" />
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Tag Library Descriptor" />
+        <option value="facelets" />
         <option value="Class" />
       </list>
     </option>
@@ -60,7 +67,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/landr/Desktop/jsf-training",
+    "last_opened_file_path": "C:/Users/landr/Desktop/jsf-training/src/main/webapp",
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -72,11 +79,11 @@
       <recent name="pl.training.jsf.view.extensions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp" />
       <recent name="C:\Users\landr\Desktop\jsf-training" />
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\resources" />
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\resources\components" />
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\resources\i18n" />
-      <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp" />
@@ -192,7 +199,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659511869198</updated>
       <workItem from="1659511870609" duration="7290000" />
-      <workItem from="1659681278740" duration="12149000" />
+      <workItem from="1659681278740" duration="14078000" />
     </task>
     <task id="LOCAL-00001" summary="Servlets API">
       <created>1659514398112</created>
@@ -285,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659694254270</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Servlets API">
+      <created>1659694845327</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659694845327</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
