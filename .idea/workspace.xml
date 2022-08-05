@@ -10,15 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5fed662-c99a-47de-8ff3-8fb890a37419" name="Changes" comment="Servlets API">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/UserChangeListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/extensions/HelloComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/extensions/InputLocalTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/components/inputLocalTime.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/UserContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/UserContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/extensions/InputLocalTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/training/jsf/view/extensions/InputLocalTime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/landr/Desktop/jsf-training/src/main/webapp/resources/components",
+    "last_opened_file_path": "C:/Users/landr/Desktop/jsf-training",
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -80,10 +75,11 @@
       <recent name="pl.training.jsf.view.extensions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\landr\Desktop\jsf-training" />
+      <recent name="C:\Users\landr\Desktop\jsf-training\src\main\resources" />
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\resources\components" />
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\resources\i18n" />
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp\WEB-INF\includes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\landr\Desktop\jsf-training\src\main\webapp" />
@@ -199,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659511869198</updated>
       <workItem from="1659511870609" duration="7290000" />
-      <workItem from="1659681278740" duration="10366000" />
+      <workItem from="1659681278740" duration="11810000" />
     </task>
     <task id="LOCAL-00001" summary="Servlets API">
       <created>1659514398112</created>
@@ -278,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659687463281</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Servlets API">
+      <created>1659692804659</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659692804659</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

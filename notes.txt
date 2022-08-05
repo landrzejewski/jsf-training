@@ -1,0 +1,11 @@
+CDI
+https://docs.jboss.org/weld/reference/latest/en-US/html_single
+
+Life cycle
+https://docs.oracle.com/javaee/7/tutorial/jsf-intro006.htm
+
+Specification
+https://download.oracle.com/otn-pub/jcp/jsf-2_3-final-eval-spec/JSF_2.3.pdf?AuthParam=1659686416_aa3ed38b456d48da5611b3c25f86ff05
+
+Dynamic components
+https://itecnote.com/tecnote/r-how-to-create-dynamic-jsf-form-fields/

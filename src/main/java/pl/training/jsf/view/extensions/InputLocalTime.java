@@ -6,6 +6,7 @@ import lombok.Setter;
 import javax.faces.component.FacesComponent;
 import javax.faces.component.NamingContainer;
 import javax.faces.component.UIInput;
+import javax.faces.component.UINamingContainer;
 import javax.faces.context.FacesContext;
 import javax.faces.convert.ConverterException;
 import java.io.IOException;
@@ -33,6 +34,11 @@ public class InputLocalTime extends UIInput implements NamingContainer {
 
     private UIInput hour;
     private UIInput minute;
+
+    @Override
+    public String getFamily() {
+        return UINamingContainer.COMPONENT_FAMILY;
+    }
 
     @Override
     public void encodeBegin(FacesContext context) throws IOException {

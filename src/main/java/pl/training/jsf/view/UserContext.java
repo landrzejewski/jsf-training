@@ -24,7 +24,7 @@ public class UserContext implements Serializable {
     private Locale currentLocale;
     private List<Locale> supportedLocales = new ArrayList<>();
     private boolean isActive;
-    private LocalTime time;
+    private LocalTime time = LocalTime.now();
 
     @PostConstruct
     public void init() {
